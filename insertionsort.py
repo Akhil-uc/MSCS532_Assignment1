@@ -11,3 +11,5 @@ def insertion_sort_descending_b(arr, n=None):
         j -= 1
     arr[j + 1] = last_element
     return arr
+student_b_array = [9,1,2,8,7,3]
+print("Student B Sorted:", insertion_sort_descending_b(student_b_array))
